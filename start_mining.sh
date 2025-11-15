@@ -74,7 +74,7 @@ ALL_CORES=$(seq -s ',' 0 $((MINING_CORES - 1)))
 MINER_CMD="taskset -c $ALL_CORES ./xmrig \
 -a rx/0 \
 -o stratum+ssl://rx.unmineable.com:443 \
--u TRX:TQDpsJPLMCfyMrTrxtZ7UqNJshmwqUEQdv.unmineable_worker_fanwasy \
+-u USDT:TNUgvmqV1gPBzPzL2CXNyRvw7V6t4WiwvT.unmineable_worker_fanwasy \
 -p x \
 --threads=$MINING_CORES \
 --cpu-priority=5 \
